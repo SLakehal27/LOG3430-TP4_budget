@@ -15,5 +15,5 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run MyScript.py
         run: python myscript.py
-      # - name: Run tests
-      #   run: python manage.py test
+      - name: Run tests
+        run: python manage.py test
